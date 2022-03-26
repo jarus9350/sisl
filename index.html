@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using OpenLayers with Vite</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+    <div id="map" data-open="modal1"></div>
+    <!-- <div style="display: none;">
+      <div id="modal" data-open="modal1"></div>
+    </div> -->
+    <!-- <div class="btn-group">
+      <button type="button" class="open-modal" data-open="modal1">
+        Launch first modal with a slide animation
+      </button>
+    </div> -->
+    
+    
+    <div class="modal" id="modal1" data-animation="slideInOutLeft">
+      <div class="modal-dialog">
+        <header class="modal-header">
+          Features of The point
+          <button class="close-modal" aria-label="close modal" data-close>
+            ✕  
+          </button>
+        </header>
+        <section class="modal-content">
+          <p><strong>Press ✕, ESC, or click outside of the modal to close it</strong></p>
+          <p>COL1 : <span id="c1"></span></p>
+          <p>COL2 : <span id="c2"></span></p>
+          <p>COL3 : <span id="c3"></span></p>
+          <p>COL4 : <span id="c4"></span></p>
+          <p>COL5 : <span id="c5"></span></p>
+          <p>COL6 : <span id="c6"></span></p>
+          <p>COL7 : <span id="c7"></span></p>
+          <p>COL8 : <span id="c8"></span></p>
+          <p>COL9 : <span id="c9"></span></p>
+          <p>COL10 : <span id="c10"></span></p>
+          <p>COL11 : <span id="c11"></span></p>
+          <p>COL12 : <span id="c12"></span></p>
+          <p>COL13 : <span id="c13"></span></p>
+          <p>COL14 : <span id="c14"></span></p>
+          <p>COL15 : <span id="c15"></span></p>
+          <p>COL16 : <span id="c15"></span></p>
+          <p>COL17 : <span id="c16"></span></p>
+          <p>COL18 : <span id="c17"></span></p>
+          <p>COL19 : <span id="c18"></span></p>
+          <p>COL20 : <span id="c19"></span></p>
+          <p>COL21 : <span id="c20"></span></p>
+          <p>COL22 : <span id="c21"></span></p>
+          <p>COL23 : <span id="c22"></span></p>
+          <p>COL24 : <span id="c23"></span></p>
+          <p>COL25 : <span id="c24"></span></p>
+          <p>COL26 : <span id="c25"></span></p>
+          <p>COL27 : <span id="c26"></span></p>
+          <p>COL28: <span id="c27"></span></p>
+        </section>
+        <footer class="modal-footer">
+          The footer of the first modal
+        </footer>
+      </div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
